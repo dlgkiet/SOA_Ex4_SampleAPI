@@ -42,6 +42,18 @@ Dự án này triển khai một API RESTful bằng **ASP.NET Core**, cho phép 
 
 ---
 
+## 🌟 Chức năng chính
+
+| **Chức năng**                     | **HTTP Method** | **Endpoint**         | **Mô tả**                                                                 |
+|-----------------------------------|-----------------|----------------------|---------------------------------------------------------------------------|
+| **Lấy danh sách sách**            | GET             | `/api/books`         | Lấy toàn bộ danh sách sách hiện có trong cơ sở dữ liệu.                   |
+| **Truy xuất thông tin chi tiết**  | GET             | `/api/books/{id}`    | Lấy thông tin chi tiết của một sách dựa trên ID.                         |
+| **Thêm sách mới**                 | POST            | `/api/books`         | Thêm một sách mới vào hệ thống với thông tin như tên, giá, thể loại, tác giả. |
+| **Cập nhật sách**                 | PUT             | `/api/books/{id}`    | Cập nhật thông tin của một sách dựa trên ID và dữ liệu mới được cung cấp. |
+| **Xóa sách**                      | DELETE          | `/api/books/{id}`    | Xóa một sách khỏi cơ sở dữ liệu dựa trên ID.                             |
+
+---
+
 ## 🌟 Kết quả đạt được
 
 1. **Triển khai thành công API RESTful**:
