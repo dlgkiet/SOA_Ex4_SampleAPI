@@ -6,7 +6,7 @@ Dự án này triển khai một API RESTful bằng **ASP.NET Core**, cho phép 
 
 ---
 
-## 📂 Cấu trúc dự án (chi tiết)
+## 📂 Cấu trúc dự án
 
 ### **Controllers**
 - Chứa lớp `BooksController` để định nghĩa các API endpoints.
